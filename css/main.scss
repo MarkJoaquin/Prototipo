@@ -44,7 +44,7 @@ input::-webkit-inner-spin-button {
 }
 
 p {
-  margin: 15px 0;
+  margin: 15px 5px;
 }
 
 :root {
@@ -131,6 +131,13 @@ p {
     border: #333;
   }
 
+  .clave__texto{
+    margin-bottom: 0px;
+  }
+
+  .barra_clave{
+    margin-top: 15px;
+  }
   .credenciales__boton {
     display: block;
     margin: 2% auto 0%;
@@ -284,7 +291,6 @@ p {
 .button_buscar_colec:hover {
   background-color: #306317;
 }
-
 /* Independientes end */
 
 .solicitudesStatus {
@@ -367,7 +373,7 @@ p {
 
   .resultado__principal {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border: 1px #000;
   }
 
@@ -375,6 +381,7 @@ p {
     display: flex;
     justify-content: space-around;
   }
+
 }
 
 .background-selectionTesis_formulario-container {
